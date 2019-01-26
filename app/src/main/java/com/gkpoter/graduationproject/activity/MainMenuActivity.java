@@ -135,7 +135,7 @@ public class MainMenuActivity extends AppCompatActivity
             new FileHelper().clear("wifi.txt");
             Toast.makeText(this, "采集信息清空成功", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_wifi) {
-            //startActivity(new Intent(getApplicationContext(), WifiManagerActivity.class));
+            startActivity(new Intent(getApplicationContext(), WifiManagerActivity.class));
         } else if (id == R.id.nav_upload) {
             new FileHelper().save("wifi.txt", "]");
             RequestParams params = new RequestParams();
