@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.esri.arcgisruntime.mapping.view.MapView
+        android:id="@+id/dismapviw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.gkpoter.graduationproject.view.BGQDistributionView
+        android:id="@+id/bgqdisview"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/layerkey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="88dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_layers_black_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/disclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_refresh_black_24dp" />
+
+</FrameLayout>

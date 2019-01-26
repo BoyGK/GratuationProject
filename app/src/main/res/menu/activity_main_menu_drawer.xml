@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_folder"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_wifi"
+            android:icon="@drawable/ic_wifi_black_24dp"
+            android:title="Wifi" />
+        <item
+            android:id="@+id/nav_clear"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:title="Clear" />
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_cloud_upload_black_24dp"
+            android:title="Upload" />
+    </group>
+
+    <item android:title="settings">
+        <menu>
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Tools" />
+            <item
+                android:id="@+id/nav_location"
+                android:icon="@drawable/ic_place_black_24dp"
+                android:title="Location" />
+        </menu>
+    </item>
+
+</menu>
